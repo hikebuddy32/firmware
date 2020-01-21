@@ -1,15 +1,15 @@
-[submodule "ESP32/esp-idf"]
-	path = ESP32/esp-idf
+[submodule "esp-idf"]
+	path = esp-idf
 	url = https://github.com/espressif/esp-idf.git
-[submodule "ESP32/xtensa-esp32-elf"]
-	path = ESP32/xtensa-esp32-elf
+[submodule "xtensa-esp32-elf"]
+	path = xtensa-esp32-elf
 	url = https://github.com/SHA2017-badge/xtensa-esp32-elf.git
-[submodule "ESP32/components/nmea"]
-	path = ESP32/components/nmea
+[submodule "components/nmea"]
+	path = components/nmea
 	url = https://github.com/igrr/libnmea-esp32.git
-[submodule "ESP32/components/i2c_sensors/bme280"]
-	path = ESP32/components/i2c_sensors/bme280
+[submodule "components/i2c_sensors/bme280"]
+	path = components/i2c_sensors/bme280
 	url = https://github.com/BoschSensortec/BME280_driver.git
-[submodule "ESP32/components/gui/lvgl"]
-	path = ESP32/components/gui/lvgl
+[submodule "components/gui/lvgl"]
+	path = components/gui/lvgl
 	url = https://github.com/littlevgl/lvgl.git
