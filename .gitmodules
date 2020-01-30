@@ -7,9 +7,6 @@
 [submodule "components/nmea"]
 	path = components/nmea
 	url = https://github.com/igrr/libnmea-esp32.git
-[submodule "components/i2c_sensors/bme280"]
-	path = components/i2c_sensors/bme280
-	url = https://github.com/BoschSensortec/BME280_driver.git
 [submodule "components/gui/lvgl"]
 	path = components/gui/lvgl
 	url = https://github.com/littlevgl/lvgl.git
