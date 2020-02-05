@@ -10,7 +10,7 @@ else
 LVGLLIB = lvgl
 
 COMPONENT_SRCDIRS := . \
-    ./include \
+#    ./include \
     $(LVGLLIB) \
     $(LVGLLIB)/lv_core \
     $(LVGLLIB)/lv_draw \
@@ -20,10 +20,10 @@ COMPONENT_SRCDIRS := . \
     $(LVGLLIB)/lv_objx \
     $(LVGLLIB)/lv_themes \
     lvgl_examples \
-    fonts
+#    fonts
 
 COMPONENT_ADD_INCLUDEDIRS := . \
-    ./include \
+#    ./include \
     $(LVGLLIB) \
     $(LVGLLIB)/lv_core \
     $(LVGLLIB)/lv_draw \
@@ -33,10 +33,10 @@ COMPONENT_ADD_INCLUDEDIRS := . \
     $(LVGLLIB)/lv_objx \
     $(LVGLLIB)/lv_themes \
     lvgl_examples \
-    fonts
+#    fonts
 
 COMPONENT_PRIV_INCLUDEDIRS +=  . \
-    ./include \
+#    ./include \
     $(LVGLLIB) \
     $(LVGLLIB)/lv_core \
     $(LVGLLIB)/lv_draw \
@@ -46,6 +46,6 @@ COMPONENT_PRIV_INCLUDEDIRS +=  . \
     $(LVGLLIB)/lv_objx \
     $(LVGLLIB)/lv_themes \
     lvgl_examples \
-    fonts
+#    fonts
 
 endif  #CONFIG_LVGL_GUI_ENABLE

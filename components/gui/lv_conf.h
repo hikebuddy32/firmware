@@ -250,6 +250,6 @@
 /*Switch (dependencies: lv_slider)*/
 #define USE_LV_SW       1
 
-#include "lvgl/lv_conf_checker.h"
+#include "lvgl/src/lv_conf_checker.h"
 
 #endif /*LV_CONF_H*/
