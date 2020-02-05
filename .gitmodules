@@ -1,6 +1,3 @@
-[submodule "esp-idf"]
-	path = esp-idf
-	url = https://github.com/espressif/esp-idf.git
 [submodule "components/nmea"]
 	path = components/nmea
 	url = https://github.com/igrr/libnmea-esp32.git
