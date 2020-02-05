@@ -4,3 +4,7 @@
 [submodule "components/gui/lvgl"]
 	path = components/gui/lvgl
 	url = https://github.com/littlevgl/lvgl.git
+[submodule "esp-idf"]
+	path = esp-idf
+	url = https://github.com/espressif/esp-idf.git
+	branch = release/v3.0
